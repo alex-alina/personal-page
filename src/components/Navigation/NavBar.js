@@ -1,50 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useStyles from './NavBar.styles';
 import menuContent from '../../utils/menuContent';
-import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Hidden from '@material-ui/core/Hidden';
 import SideMenu from './SideMenu';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  
-  toolBar: {
-    display: 'flex',
-    justifyContent: 'space-between',
-  },
-
-  logo: {
-    paddingLeft: '4%',
-  },
-
-  menuButton: {
-    color: '#fff',
-  },
-
-  navList: {
-    listStyleType: 'none',
-    width: '35%',
-    display: 'flex',
-    justifyContent: 'space-evenly',
-  },
-
-  navLink: {
-    textDecoration: 'none',
-  },
-
-  navLinkFont: {
-    color: '#fff',
-    fontWeight: '400',
-    '&:hover': {
-      fontWeight: '500',
-    }
-  },
-}));
 
 export default function NavBar() {
   const classes = useStyles();
@@ -63,7 +25,7 @@ export default function NavBar() {
         </Typography>
 
         <Hidden only={['lg', 'xl']}> 
-        <SideMenu />
+          <SideMenu />
         </Hidden>
 
         <Hidden only={['xs', 'sm', 'md']}>
