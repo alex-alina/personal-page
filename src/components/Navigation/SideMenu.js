@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import menuContent from '../../utils/menuContent';
 import { makeStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -66,18 +67,19 @@ export default function SideMenu() {
         onClose={handleClose}
         className={classes.menu}
       >
-        {['About', 'Contact', 'Resume'].map((text) => (
+        {menuContent.map((item, index) => (
           <MenuItem 
             onClick={handleClose} 
             className={classes.menuItem}
+            key={index}
           >
-          <Link className={classes.navLink}>
+          <Link to={item.route} className={classes.navLink}>
             <Typography 
               className={classes.navLinkFont} 
               variant="h6" 
               noWrap
             >
-              {text}
+              {item.text}
             </Typography>
           </Link>
         </MenuItem>

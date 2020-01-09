@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import menuContent from '../../utils/menuContent';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -50,7 +51,7 @@ export default function NavBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" backgroundColor="primary" >
+      <AppBar position="static" backgroundcolor="primary" >
         <Toolbar className={classes.toolBar}>
         <Typography 
           className={classes.logo} 
@@ -67,15 +68,15 @@ export default function NavBar() {
 
         <Hidden only={['xs', 'sm', 'md']}>
           <ul className={classes.navList}>
-            {['About', 'Contact', 'Resume'].map((text) => (
-              <li key={text} className={classes.navLi}>
-                <Link className={classes.navLink}>
+            {menuContent.map((item, index) => (
+              <li key={index} className={classes.navLi}>
+                <Link to={item.route} className={classes.navLink}>
                   <Typography 
                     className={classes.navLinkFont} 
                     variant="h5" 
                     noWrap
                   >
-                    {text}
+                    {item.text}
                   </Typography>
                 </Link>
               </li>
