@@ -12,13 +12,13 @@ const useStyles = makeStyles(theme => ({
   },
 
   name: {
-    marginTop: '1.5%',
+    marginTop: '1.15%',
     color: '#60ae72,',
     fontSize: 'calc(1.75rem + 1vw)',
   },
 
   title: {
-    marginTop: '0.5%',
+    marginTop: '0.25%',
     color: '#60ae72,',
     fontSize: 'calc(1rem + 0.5vw)',
   },
@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
   iconsWrapper: {
     display: 'flex',
     justifyContent: 'flex-start',
-    marginTop: '2%',
+    marginTop: '1%',
   },
 
   profileLink: {
