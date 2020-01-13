@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
     alignContent: 'center',
     width: '40px',
     height: '40px',
-    marginRight: '20px',
+    marginRight: '10px',
     padding: 0,
     borderRadius: '50%',
     backgroundColor: '#14a3ab',
@@ -59,16 +59,6 @@ const useStyles = makeStyles(theme => ({
     textDecoration: 'none',
     color: 'inherit',
   },
-
-  downloadBtn: {
-    backgroundColor: '#14a3ab',
-    borderRadius: '50px',
-    border: '2px solid #14a3ab',
-    '&:hover': {
-      backgroundColor: '#0f757a',
-      border: '2px solid #0f757a',
-    },
-  }
 }));
 
 export default useStyles;

@@ -5,7 +5,7 @@ const useStyles = makeStyles({
     width: 'auto',
   },
   media: {
-    height: 240,
+    height: 140,
     maxWidth: '100%',
   },
   projectLink: {
