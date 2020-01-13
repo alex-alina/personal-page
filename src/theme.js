@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#60ae72',
+      main: '#00747c',
     },
     secondary: {
       main: '#fff',
@@ -26,55 +26,22 @@ const theme = createMuiTheme({
         backgroundColor: '#fff',
       },
     },
-
-    MuiDivider: {
-      light: {
-        backgroundColor: '#ffffff8C',
-      }
-    },
-    MuiListItemText: {
-      primary: {
-        color: '#fff',
-      }
-    },
-    MuiListItem: {
-      button: {
-        paddingTop: '10px',
-        paddingBottom: '10px',
-      },
-      root: {
-        paddingTop: '6px',
-        paddingBottom: '6px',
-      },
-    },
-    MuiAvatar: {
-      root: {
-        width: '34px',
-        height: '34px',
-        backgroundColor: '#fff',
-      },
-      colorDefault: {
-        backgroundColor: '#fff',
+    MuiButton: {
+      contained: {
+        backgroundColor: '#14a3ab',
+        borderRadius: '50px',
+        border: '2px solid #14a3ab',
         '&:hover': {
-          backgroundColor: '#99cc60',
+          backgroundColor: '#0f757a',
+          border: '2px solid #0f757a',
         },
+        color: '#fff',
       }
     },
     MuiIcon: {
       root: {
-        fontSize: '20px',
-        width: '20px',
-      }
-    },
-    MuiFormControlLabel: {
-      labelPlacementStart: {
-        flexDirection: 'row',
-      }
-    },
-    MuiFormGroup: {
-      root: {
-        flexWrap: 'wrap',
-        flexDirection: 'row',
+        fontSize: '30px',
+        width: '30px',
       }
     },
     MuiPaper: {

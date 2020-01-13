@@ -7,10 +7,6 @@ const menuContent = [
     text: 'Projects',
     route: '/',
   },
-  {
-    text: 'Resume',
-    route: '/resume',
-  }
 ];
 
 export default menuContent;
