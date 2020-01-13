@@ -12,14 +12,14 @@ const useStyles = makeStyles(theme => ({
 
   title: {
     marginTop: '2%',
-    fontSize: 'calc(1.75rem + 1vw)',
+    fontSize: 'calc(1.5rem + 1vw)',
     fontWeight: '300',
     color: theme.palette.primary.main,
   },
 
   subTitle: {
     marginTop: '0.25%',
-    fontSize: 'calc(1rem + 0.5vw)',
+    fontSize: 'calc(0.85rem + 0.5vw)',
     fontWeight: '300',
   },
 

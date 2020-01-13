@@ -17,9 +17,8 @@ export default function NavBar() {
         <Toolbar className={classes.toolBar}>
         <Typography 
           className={classes.logo} 
-          variant="h5" 
+          variant="p" 
           color="secondary" 
-          noWrap
         >
           Welcome <span role="img" aria-label="happy face emoji"> 😊</span>
         </Typography>
@@ -33,13 +32,7 @@ export default function NavBar() {
             {menuContent.map((item, index) => (
               <li key={index} className={classes.navLi}>
                 <Link to={item.route} className={classes.navLink}>
-                  <Typography 
-                    className={classes.navLinkFont} 
-                    variant="h5" 
-                    noWrap
-                  >
-                    {item.text}
-                  </Typography>
+                  {item.text}
                 </Link>
               </li>
             ))}

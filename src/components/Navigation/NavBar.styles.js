@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
 
   logo: {
     paddingLeft: '4%',
+    fontSize: 'calc(1rem + 0.5vw)',
+    fontWeight: '300',
+    color: '#fff',
   },
 
   menuButton: {
@@ -28,13 +31,11 @@ const useStyles = makeStyles(theme => ({
 
   navLink: {
     textDecoration: 'none',
-  },
-
-  navLinkFont: {
+    fontSize: 'calc(1rem + 0.5vw)',
+    fontWeight: '300',
     color: '#fff',
-    fontWeight: '400',
     '&:hover': {
-      fontWeight: '500',
+      fontWeight: '400',
     }
   },
 }));
