@@ -36,16 +36,16 @@ const theme = createMuiTheme({
         color: '#fff',
       }
     },
-    MuiListItem: {
-      button: {
-        paddingTop: '10px',
-        paddingBottom: '10px',
-      },
-      root: {
-        paddingTop: '6px',
-        paddingBottom: '6px',
-      },
-    },
+    // MuiListItem: {
+    //   button: {
+    //     paddingTop: '10px',
+    //     paddingBottom: '10px',
+    //   },
+    //   root: {
+    //     paddingTop: '6px',
+    //     paddingBottom: '6px',
+    //   },
+    // },
     MuiIcon: {
       root: {
         fontSize: '30px',

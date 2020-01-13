@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
 
   logo: {
     paddingLeft: '4%',
+    // fontWeight: '200',
   },
 
   menuButton: {

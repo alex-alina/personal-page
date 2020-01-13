@@ -7,43 +7,62 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import spirograph from '../../assets/spirograph.png';
 const useStyles = makeStyles({
   card: {
-    maxWidth: 300,
+    width: 'auto',
   },
   media: {
-    height: 140,
+    height: 240,
+    // maxWidth: 440,
+    maxWidth: '100%',
   },
+  projectLink: {
+    textDecoration: 'none',
+    color: 'inherit',
+  }
 });
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
   const classes = useStyles();
+  const { 
+    title, 
+    description, 
+    stack, 
+    openProjectBtn, 
+    gitHubBtn, 
+    image,
+    projectLink,
+    gitHubLink,
+  } = props;
 
   return (
     <Card className={classes.card}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={spirograph}
-          title="Contemplative Reptile"
+          image={image}
+          title="project cover image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+          <Typography gutterBottom variant="h5" component="h2" align="left">
+            {title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body1" color="textSecondary" component="p" align="left">
+            {description}
+          </Typography>
+          <Typography variant="body1" color="textSecondary" component="p" align="left">
+            {stack}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
+      <a href={projectLink} target="_blank" rel="noopener noreferrer" className={classes.projectLink}>
         <Button size="medium" color="primary">
-          Share
+          {openProjectBtn}
         </Button>
+      </a>
         <Button size="medium" color="primary">
-          Learn More
+          <a href={gitHubLink} target="_blank" rel="noopener noreferrer" className={classes.projectLink}>{gitHubBtn} </a>
         </Button>
       </CardActions>
     </Card>
