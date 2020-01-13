@@ -26,26 +26,18 @@ const theme = createMuiTheme({
         backgroundColor: '#fff',
       },
     },
-    MuiDivider: {
-      light: {
-        backgroundColor: '#ffffff8C',
-      }
-    },
-    MuiListItemText: {
-      primary: {
+    MuiButton: {
+      contained: {
+        backgroundColor: '#14a3ab',
+        borderRadius: '50px',
+        border: '2px solid #14a3ab',
+        '&:hover': {
+          backgroundColor: '#0f757a',
+          border: '2px solid #0f757a',
+        },
         color: '#fff',
       }
     },
-    // MuiListItem: {
-    //   button: {
-    //     paddingTop: '10px',
-    //     paddingBottom: '10px',
-    //   },
-    //   root: {
-    //     paddingTop: '6px',
-    //     paddingBottom: '6px',
-    //   },
-    // },
     MuiIcon: {
       root: {
         fontSize: '30px',

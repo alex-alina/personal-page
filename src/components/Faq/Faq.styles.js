@@ -2,23 +2,22 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '80%',
+    width: '70%',
     margin: '0 auto',
   },
 
   sectionTitle: {
+    margin: '2% 0',
     color: theme.palette.primary.main,
     lineHeight: '2.5rem',
-  },
-
-  faqDivider: {
-    marginTop: theme.spacing.unit * 0.25,
-    marginBottom: theme.spacing.unit * 2.25,
+    fontSize: 'calc(1.75rem + 1vw)',
+    fontWeight: '300',
   },
   
-  heading: {
+  question: {
     color:theme.palette.primary.main,
-    fontWeight: 500,
+    fontSize: 'calc(1rem + 0.5vw)',
+    fontWeight: '300',
   },
 }));
 

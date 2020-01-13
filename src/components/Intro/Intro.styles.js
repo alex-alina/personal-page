@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   iconsWrapper: {
     display: 'flex',
     justifyContent: 'flex-start',
-    marginTop: '2%',
+    marginTop: '1%',
   },
 
   profileLink: {

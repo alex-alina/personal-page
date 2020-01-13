@@ -8,9 +8,10 @@ const useStyles = makeStyles(theme => ({
   },
 
   sectionTitle: {
-    margin: '4% 0 2% 0',
+    margin: '3% 0 2% 0',
     fontSize: 'calc(1.75rem + 1vw)',
     fontWeight: '300',
+    color: theme.palette.primary.main,
   },
 }));
  export default useStyles;

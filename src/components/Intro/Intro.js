@@ -31,6 +31,10 @@ export default function Intro() {
           Junior Full Stack Developer
         </Typography>
 
+        <Typography className={classes.title}>
+          Based in Amsterdam
+        </Typography>
+
         <div className={classes.iconsWrapper}>
           <a 
             href="https://github.com/alex-alina/" 
@@ -73,7 +77,7 @@ export default function Intro() {
 
           <Button 
             size="small" 
-            color="primary"
+            // color="primary"
             variant="contained"
             className={classes.downloadBtn}
           >

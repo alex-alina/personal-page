@@ -6,7 +6,6 @@ const useStyles = makeStyles({
   },
   media: {
     height: 240,
-    // maxWidth: 440,
     maxWidth: '100%',
   },
   projectLink: {

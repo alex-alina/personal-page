@@ -6,7 +6,6 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import faqContent from '../../utils/faqContent';
-import { Divider } from '@material-ui/core';
 
 
 export default function Faq() {
@@ -14,13 +13,12 @@ export default function Faq() {
 
   return (
     <div className={classes.root}>
-      <Typography className={classes.sectionTitle} variant="h6">F.A.Q</Typography>
-      
-      <Divider className={classes.faqDivider} />
+      <Typography className={classes.sectionTitle} variant="h6" align="left">F.A.Q</Typography>
+
       {faqContent.map((text) => (
         <ExpansionPanel key={text.question}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subtitle1" className={classes.heading}>{text.question}</Typography>
+            <Typography variant="subtitle1" className={classes.question}>{text.question}</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Typography variant="body1" align="left">{text.answer}</Typography>
