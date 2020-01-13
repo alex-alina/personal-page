@@ -12,7 +12,6 @@ const useStyles = makeStyles(theme => ({
 
   logo: {
     paddingLeft: '4%',
-    // fontWeight: '200',
   },
 
   menuButton: {
@@ -21,9 +20,10 @@ const useStyles = makeStyles(theme => ({
 
   navList: {
     listStyleType: 'none',
-    width: '35%',
+    width: '20%',
     display: 'flex',
     justifyContent: 'space-evenly',
+    paddingRight: '4%',
   },
 
   navLink: {

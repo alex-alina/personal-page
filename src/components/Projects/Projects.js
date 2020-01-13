@@ -1,24 +1,10 @@
 import React from 'react';
+import useStyles from './Projects.styles';
 import projectsDescription from '../../utils/projectsDescription';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    // flexGrow: 1,
-    width: '70%',
-    margin: '0 auto',
-  },
-
-  sectionTitle: {
-    width: '70%',
-    margin: '4% 0 2% 0',
-    fontSize: 'calc(1.75rem + 1vw)',
-    fontWeight: '300',
-  }
-}));
 
 export default function Projects() {
   const classes = useStyles();
@@ -34,8 +20,6 @@ export default function Projects() {
     <div className={classes.root}>
       <Typography 
         align="left" 
-        variant="h3" 
-        noWrap
         className={classes.sectionTitle}
         >
           Projects
@@ -52,8 +36,9 @@ export default function Projects() {
             gitHubLink={projectOne.gitHubLink}
           />
         </Grid>
+
         <Grid item xs={12} sm={12} md={6} lg={3}>
-        <ProjectCard 
+          <ProjectCard 
             title={projectThree.title} 
             description={projectThree.description} 
             image={projectThree.image}
@@ -63,8 +48,9 @@ export default function Projects() {
             gitHubLink={projectThree.gitHubLink}
           />
         </Grid>
+
         <Grid item xs={12} sm={12} md={6} lg={3}>
-        <ProjectCard 
+          <ProjectCard 
             title={projectTwo.title} 
             description={projectTwo.description} 
             image={projectTwo.image}
@@ -74,8 +60,9 @@ export default function Projects() {
             gitHubLink={projectTwo.gitHubLink}
           />
         </Grid>
+        
         <Grid item xs={12} sm={12} md={6} lg={3}>
-        <ProjectCard 
+          <ProjectCard 
             title={projectFour.title} 
             description={projectFour.description} 
             image={projectFour.image}

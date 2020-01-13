@@ -4,7 +4,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-between',
     alignItems: 'flex-start',
     width: '70%',
     margin: '1% auto',
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   iconsWrapper: {
     display: 'flex',
     justifyContent: 'flex-start',
-    marginTop: '1%',
+    marginTop: '2%',
   },
 
   profileLink: {
@@ -52,7 +52,21 @@ const useStyles = makeStyles(theme => ({
     width: '30px',
     height: '30px',
     borderRadius: '50%',
-    
+  },
+
+  cvLink: {
+    textDecoration: 'none',
+    color: 'inherit',
+  },
+
+  downloadBtn: {
+    backgroundColor: '#14a3ab',
+    borderRadius: '50px',
+    border: '2px solid #14a3ab',
+    '&:hover': {
+      backgroundColor: '#0f757a',
+      border: '2px solid #0f757a',
+    },
   }
 }));
 
