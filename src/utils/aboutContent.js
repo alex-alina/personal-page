@@ -1,0 +1,7 @@
+const aboutContent = {
+  intro: "Hi! I am a keen junior web developer with a passion for building user-centered apps and a background in project and team management.",
+  professionalDescription: "The only thing I love more than building new systems is making them more efficient. For several years I have worked in teams across a variety of industries, from education to business and commerce, building an excellent track of teamwork experience and a history of driving team growth through mentoring and good communication skills. These years also developed my ability to adapt to a vast range of personalities and work styles and quickly learn the specifics of a new industry. I think that understanding people’s needs, how they work and what makes them thrive can make you build great experiences, not only for your end users but also for your colleagues (from developers to UI/UX designers, product owners and anyone else involved in the project).",
+  personalDescription: "If we meet for a coffee and a chat, you’ll find me to be a jolly, open human being, but if you listen carefully you’ll learn that I’m pretty much on the introverted side, when the well being of others doesn’t asks for me bringing the extroverted out. As such, I’d rather spend time folding origami and building tiny origami gardens, reading and enjoying time with my friends in some of the quieter cafes in Amsterdam than being the “soul of the party” (unless the party is designed for quiet people :)",
+}
+
+export default aboutContent;

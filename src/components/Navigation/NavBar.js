@@ -15,14 +15,12 @@ export default function NavBar() {
     <div className={classes.root}>
       <AppBar position="static" backgroundcolor="primary" >
         <Toolbar className={classes.toolBar}>
-        <Typography 
+        <p
           className={classes.logo} 
-          variant="h5" 
           color="secondary" 
-          noWrap
         >
-          Welcome <span role="img" aria-label="happy face emoji"> 😊</span>
-        </Typography>
+          Welcome <span role="img" aria-label="happy face emoji">😊</span>
+        </p>
 
         <Hidden only={['lg', 'xl']}> 
           <SideMenu />
@@ -33,13 +31,7 @@ export default function NavBar() {
             {menuContent.map((item, index) => (
               <li key={index} className={classes.navLi}>
                 <Link to={item.route} className={classes.navLink}>
-                  <Typography 
-                    className={classes.navLinkFont} 
-                    variant="h5" 
-                    noWrap
-                  >
-                    {item.text}
-                  </Typography>
+                  {item.text}
                 </Link>
               </li>
             ))}

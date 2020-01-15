@@ -49,13 +49,7 @@ export default function SideMenu() {
             key={index}
           >
             <Link to={item.route} className={classes.navLink}>
-              <Typography 
-                className={classes.navLinkFont} 
-                variant="h6" 
-                noWrap
-              >
                 {item.text}
-              </Typography>
             </Link>
           </MenuItem>
         ))}

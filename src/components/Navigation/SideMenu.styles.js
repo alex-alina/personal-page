@@ -17,11 +17,9 @@ const useStyles = makeStyles(theme => ({
 
   navLink: {
     textDecoration: 'none',
-  },
-
-  navLinkFont: {
+    fontSize: 'calc(1rem + 0.5vw)',
     color: '#1c313a',
-    fontWeight: '400',
+    fontWeight: '300',
   },
 }));
 

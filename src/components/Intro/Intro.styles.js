@@ -6,19 +6,26 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
-    width: '70%',
+    width: '100%',
     margin: '1% auto',
   },
 
   name: {
-    marginTop: '1.25%',
-    fontSize: 'calc(1.75rem + 1vw)',
+    marginTop: '7%',
+    fontSize: 'calc(1.5rem + 0.5vw)',
     fontWeight: '300',
+    color: theme.palette.primary.main,
+    [theme.breakpoints.up('md')]: {
+      marginTop: '5%',
+    },
+    [theme.breakpoints.up('lg')]: {
+      marginTop: '2%',
+    },
   },
 
   title: {
     marginTop: '0.25%',
-    fontSize: 'calc(1rem + 0.5vw)',
+    fontSize: 'calc(0.85rem + 0.25vw)',
     fontWeight: '300',
   },
 
@@ -39,7 +46,7 @@ const useStyles = makeStyles(theme => ({
     alignContent: 'center',
     width: '40px',
     height: '40px',
-    marginRight: '20px',
+    marginRight: '10px',
     padding: 0,
     borderRadius: '50%',
     backgroundColor: '#14a3ab',
@@ -58,16 +65,6 @@ const useStyles = makeStyles(theme => ({
     textDecoration: 'none',
     color: 'inherit',
   },
-
-  downloadBtn: {
-    backgroundColor: '#14a3ab',
-    borderRadius: '50px',
-    border: '2px solid #14a3ab',
-    '&:hover': {
-      backgroundColor: '#0f757a',
-      border: '2px solid #0f757a',
-    },
-  }
 }));
 
 export default useStyles;

@@ -28,6 +28,7 @@ const theme = createMuiTheme({
     },
     MuiButton: {
       contained: {
+        minWidth: '120px',
         backgroundColor: '#14a3ab',
         borderRadius: '50px',
         border: '2px solid #14a3ab',
@@ -41,7 +42,7 @@ const theme = createMuiTheme({
     MuiIcon: {
       root: {
         fontSize: '30px',
-        width: '30px',
+        // width: '30px',
       }
     },
     MuiPaper: {
