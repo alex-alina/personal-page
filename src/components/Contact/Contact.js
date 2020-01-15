@@ -15,7 +15,7 @@ export default function Contact() {
         <Typography className={classes.subTitle} align="left">
           Get in touch by email {' '} 
           <a 
-            href="mailto: alex.alina.rusu@gmail.com" 
+            href="mailto:alex.alina.rusu@gmail.com?subject=Hi Alina!" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={classes.contactLink}
@@ -36,5 +36,3 @@ export default function Contact() {
     </React.Fragment>
   );
 }
-
-

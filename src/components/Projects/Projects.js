@@ -24,8 +24,8 @@ export default function Projects() {
         >
           Projects
       </Typography>
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={12} md={6} lg={3}>
+      <Grid container spacing={4}>
+        <Grid item sm={12} md={6}>
           <ProjectCard 
             title={projectOne.title} 
             description={projectOne.description} 
@@ -37,7 +37,7 @@ export default function Projects() {
           />
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={3}>
+        <Grid item sm={12} md={6}>
           <ProjectCard 
             title={projectThree.title} 
             description={projectThree.description} 
@@ -49,7 +49,7 @@ export default function Projects() {
           />
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={3}>
+        <Grid item sm={12} md={6}>
           <ProjectCard 
             title={projectTwo.title} 
             description={projectTwo.description} 
@@ -61,7 +61,7 @@ export default function Projects() {
           />
         </Grid>
         
-        <Grid item xs={12} sm={12} md={6} lg={3}>
+        <Grid item sm={12} md={6}>
           <ProjectCard 
             title={projectFour.title} 
             description={projectFour.description} 

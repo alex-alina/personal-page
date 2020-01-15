@@ -5,8 +5,11 @@ const useStyles = makeStyles({
     width: 'auto',
   },
   media: {
-    height: 140,
-    maxWidth: '100%',
+  maxWidth: '100%',
+  display: 'block',
+  height: 'calc(100px + 10vmax)',
+   objectFit: 'fill',
+   objectPosition: 'center',
   },
   projectLink: {
     textDecoration: 'none',

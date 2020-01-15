@@ -22,7 +22,6 @@ export default function Intro() {
     <React.Fragment>
       <CssBaseline />
       <section className={classes.root} >
-       
         <Typography className={classes.name}>
           Alina Rusu
         </Typography>
@@ -54,15 +53,12 @@ export default function Intro() {
             className={classes.profileLink}
           >
             <div className={classes.iconContainer}>
-              <Icon className="fab fa-linkedin-in" style={{ fontSize: 25, color: '#fff' }} />
+              <Icon 
+                className="fab fa-linkedin-in" 
+                style={{ fontSize: 25, color: '#fff' }} 
+              />
             </div>
           </a>
-
-          {/* <a href="#" target="_blank" rel="noopener noreferrer"> 
-            <div className={classes.iconContainer}>
-              <Icon className="fab fa-gitlab" style={{ color: '#fff' }} />
-            </div>
-          </a> */}
 
           <a 
             href="https://exercism.io/profiles/AlexAlina" 
@@ -71,13 +67,15 @@ export default function Intro() {
             className={classes.profileLink}
           >
             <div className={classes.iconContainer}>
-              <img className={classes.img} src={exercism} alt="exercism-logo" />
+              <img 
+                className={classes.img} 
+                src={exercism} 
+                alt="exercism-logo" />
             </div>
           </a>
 
           <Button 
             size="small" 
-            // color="primary"
             variant="contained"
             className={classes.downloadBtn}
           >
@@ -91,8 +89,6 @@ export default function Intro() {
             </a>
           </Button>
         </div>
-
-        
       </section>
     </React.Fragment>
   );

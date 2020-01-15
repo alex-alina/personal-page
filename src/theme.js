@@ -42,7 +42,7 @@ const theme = createMuiTheme({
     MuiIcon: {
       root: {
         fontSize: '30px',
-        width: '30px',
+        // width: '30px',
       }
     },
     MuiPaper: {

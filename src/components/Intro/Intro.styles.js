@@ -6,20 +6,26 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
-    width: '70%',
+    width: '100%',
     margin: '1% auto',
   },
 
   name: {
-    marginTop: '1.25%',
-    fontSize: 'calc(1.5rem + 1vw)',
+    marginTop: '7%',
+    fontSize: 'calc(1.5rem + 0.5vw)',
     fontWeight: '300',
     color: theme.palette.primary.main,
+    [theme.breakpoints.up('md')]: {
+      marginTop: '5%',
+    },
+    [theme.breakpoints.up('lg')]: {
+      marginTop: '2%',
+    },
   },
 
   title: {
     marginTop: '0.25%',
-    fontSize: 'calc(0.85rem + 0.5vw)',
+    fontSize: 'calc(0.85rem + 0.25vw)',
     fontWeight: '300',
   },
 

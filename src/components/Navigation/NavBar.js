@@ -15,13 +15,12 @@ export default function NavBar() {
     <div className={classes.root}>
       <AppBar position="static" backgroundcolor="primary" >
         <Toolbar className={classes.toolBar}>
-        <Typography 
+        <p
           className={classes.logo} 
-          variant="p" 
           color="secondary" 
         >
-          Welcome <span role="img" aria-label="happy face emoji"> 😊</span>
-        </Typography>
+          Welcome <span role="img" aria-label="happy face emoji">😊</span>
+        </p>
 
         <Hidden only={['lg', 'xl']}> 
           <SideMenu />
