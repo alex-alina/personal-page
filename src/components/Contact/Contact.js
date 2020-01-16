@@ -11,6 +11,9 @@ export default function Contact() {
         <Typography className={classes.title}>
           Let's chat!
         </Typography>
+        <Typography className={classes.subTitle} align="left">
+          Currently seeking new opportunities.
+        </Typography>
 
         <Typography className={classes.subTitle} align="left">
           Get in touch by email {' '} 

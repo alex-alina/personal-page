@@ -7,7 +7,7 @@ const useStyles = makeStyles({
   media: {
   maxWidth: '100%',
   display: 'block',
-  height: 'calc(100px + 10vmax)',
+  height: 'calc(110px + 10vmax)',
    objectFit: 'fill',
    objectPosition: 'center',
   },

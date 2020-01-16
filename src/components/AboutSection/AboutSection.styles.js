@@ -38,6 +38,7 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     justifyContent: 'flex-start',
     width: '100%',
+    color: '#37474f',
   },
 
   name: {
@@ -54,6 +55,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: '0.75%',
     fontSize: 'calc(0.95rem + 0.25vw)',
     fontWeight: '400',
+    color: '#37474f',
   },
 
   introDetails: {

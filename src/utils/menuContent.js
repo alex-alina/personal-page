@@ -1,6 +1,6 @@
 const menuContent = [
   {
-    text: 'About',
+    text: 'About me',
     route: '/about',
   },
   {

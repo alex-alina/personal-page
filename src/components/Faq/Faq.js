@@ -39,7 +39,7 @@ export default function Faq() {
           <ExpansionPanelDetails>
             <Grid container spacing={3}>
               {gardens.map((garden, index) => 
-                <Grid item xs={12} sm={6} lg={3}>
+                <Grid item xs={12} sm={6} lg={3} key={index}>
                   <img 
                     src={garden} 
                     className={classes.origamiGarden} 

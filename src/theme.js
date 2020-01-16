@@ -7,6 +7,7 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: '#fff',
+      dark: '#37474f',
     },
   },
   typography: {
@@ -42,7 +43,6 @@ const theme = createMuiTheme({
     MuiIcon: {
       root: {
         fontSize: '30px',
-        // width: '30px',
       }
     },
     MuiPaper: {
