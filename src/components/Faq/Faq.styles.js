@@ -16,9 +16,16 @@ const useStyles = makeStyles(theme => ({
   
   question: {
     color:theme.palette.primary.main,
-    fontSize: 'calc(0.75rem + 0.25vw)',
     fontWeight: '300',
   },
+
+  origamiGarden: {
+    display: 'block',
+    width: '160px',
+    height: '200px',
+    margin: '0 auto',
+    borderRadius: '50%',
+  }
 }));
 
 export default useStyles;

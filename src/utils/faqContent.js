@@ -1,23 +1,19 @@
 const faqContent = [
   {
-    question: "Favourite tech stack",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,sit amet blandit leo lobortis eget. Quisque ultrices dui non tempor consectetur. Phasellus vitae molestie nunc"
+    question: "Tech Skills",
+    answer: "JavaScript | TypeScript | React | Redux | HTML | CSS | Styled Components | Jest | RESTful APIs | Node.js | Express | Sequelize | PostgreSQL | Firebase."
   },
   {
-    question: "Personal skills and values",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,sit amet blandit leo lobortis eget. Donec pharetra felis a imperdiet aliquam. Ut bibendum mi augue, eget dapibus risus pellentesque sit amet. "
+    question: "Tech & Collaboration Tools",
+    answer: "Git | GitHub | GitLab | Bitbucket | Postman | Unix terminal | Ubuntu OS | Trello | Slack | Keybase | PivotalTracker.",
   },
   {
     question: "Future plans and interests",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,sit amet blandit leo lobortis eget. Donec pharetra felis a imperdiet aliquam. Ut bibendum mi augue, eget dapibus risus pellentesque sit amet. "
+    answer: "Vue.js | Python | SASS."
   },
   {
-    question: "What makes me a good team player",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,sit amet blandit leo lobortis eget."
-  },
-  {
-    question: "Ideal workplace profile",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,sit amet blandit leo lobortis eget."
+    question: "Ideal company",
+    answer: "My ideal workplace would be an agile environment with a growth mindset and a focus on users, teamwork, collaboration and learning. A place with an inclusive, open culture, that values work ethic and good communication. In such a space any of us could do great work and deliver our best results for our team and customers."
   }
 ];
 
