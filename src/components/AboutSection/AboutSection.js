@@ -1,7 +1,6 @@
 import React from 'react';
 import useStyles from './AboutSection.styles';
 import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
 import aboutContent from '../../utils/aboutContent';
 import Faq from '../Faq/Faq';
 import Contact from '../Contact/Contact';
