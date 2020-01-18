@@ -9,28 +9,72 @@ import workingOnTinyGarden from '../../assets/workingOnTinyGarden.jpg';
 
 export default function AboutSection() {
   const classes = useStyles();
-  const { intro, professionalDescription, personalDescription } = aboutContent;
+
+  const { 
+    subtitleIntro,
+    subtitleMiddle,
+    paragraphOne,
+    paragraphTwo,
+    paragraphThree,
+    paragraphFour,
+    paragraphFive,
+    paragraphSix,
+    paragraphSeven,
+    paragraphEight,
+    ending,
+   } = aboutContent;
 
   return (
     <section className={classes.root}>
-      <div className={classes.intro}>
         <Grid container spacing={5}>
           <Grid item xs={12} sm={9} md={9}>
-            <Typography className={classes.name} align="left">
+            <h3 className={classes.name} align="left">
               Alina Rusu
-            </Typography>
+            </h3>
 
-            <Typography className={classes.introTitle} align="left">
-              {intro}
-            </Typography>
+            <h5 className={classes.subtitles} align="left">
+              {subtitleIntro}
+            </h5>
 
-            <Typography className={classes.introDetails} align="left">
-              {professionalDescription}
-            </Typography>
+            <p className={classes.paragraphs} align="left">
+              {paragraphOne}
+            </p>
 
-            <Typography className={classes.introDetails} align="left">
-              {personalDescription}
-            </Typography>
+            <p className={classes.paragraphs} align="left">
+              {paragraphTwo}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphThree}
+            </p>
+
+            <h5 className={classes.subtitles} align="left">
+              {subtitleMiddle}
+            </h5>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphFour}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphFive}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphSix}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphSeven}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {paragraphEight}
+            </p>
+
+            <p className={classes.paragraphs} align="left">
+              {ending}
+            </p>
           </Grid>
     
           <Grid item xs={12} sm={3} md={3}>
@@ -41,7 +85,6 @@ export default function AboutSection() {
             />  
           </Grid>
         </Grid>
-      </div>
       <Faq />
       <Contact />
     </section>

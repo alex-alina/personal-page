@@ -33,14 +33,6 @@ const useStyles = makeStyles(theme => ({
     },
   },
 
-  intro: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    width: '100%',
-    color: '#37474f',
-  },
-
   name: {
     marginTop: '7%',
     fontSize: 'calc(1.5rem + 0.5vw)',
@@ -51,14 +43,14 @@ const useStyles = makeStyles(theme => ({
     },
   },
 
-  introTitle: {
+  subtitles: {
     marginTop: '0.75%',
     fontSize: 'calc(0.95rem + 0.25vw)',
     fontWeight: '400',
     color: '#37474f',
   },
 
-  introDetails: {
+  paragraphs: {
     fontSize: 'calc(0.85rem + 0.25vw)',
     fontWeight: '300',
     marginTop: '7%',

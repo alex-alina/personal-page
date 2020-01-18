@@ -4,7 +4,6 @@ import useStyles from './NavBar.styles';
 import menuContent from '../../utils/menuContent';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Hidden from '@material-ui/core/Hidden';
 import SideMenu from './SideMenu';
 
@@ -19,7 +18,7 @@ export default function NavBar() {
           className={classes.logo} 
           color="secondary" 
         >
-          Welcome <span role="img" aria-label="happy face emoji">😊</span>
+          Hello World <span role="img" aria-label="happy face emoji">😊</span>
         </p>
 
         <Hidden only={['lg', 'xl']}> 

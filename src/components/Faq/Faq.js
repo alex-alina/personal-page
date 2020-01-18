@@ -34,7 +34,7 @@ export default function Faq() {
 
       <ExpansionPanel>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subtitle1" className={classes.question}>Tiny Origami Gardens</Typography>
+            <Typography variant="subtitle1" className={classes.question}>My Tiny Origami Gardens</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Grid container spacing={3}>
