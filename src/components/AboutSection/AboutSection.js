@@ -26,10 +26,10 @@ export default function AboutSection() {
   return (
     <section className={classes.root}>
         <Grid container spacing={5}>
-          <Grid item xs={12} sm={9} md={9}>
-            <h3 className={classes.name} align="left">
-              Alina Rusu
-            </h3>
+          <Grid item xs={12} lg={9}>
+            <h5 className={classes.greeting} align="left">
+              Hi there!
+            </h5>
 
             <h5 className={classes.subtitles} align="left">
               {subtitleIntro}
@@ -76,7 +76,7 @@ export default function AboutSection() {
             </p>
           </Grid>
     
-          <Grid item xs={12} sm={3} md={3}>
+          <Grid item xs={12} lg={3}>
             <img 
               src={workingOnTinyGarden} 
               className={classes.picture} 

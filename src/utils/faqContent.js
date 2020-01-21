@@ -13,7 +13,7 @@ const faqContent = [
   },
   {
     question: "My ideal company",
-    answer: "My ideal workplace would be an agile environment with a growth mindset and a focus on users, teamwork, collaboration and learning. A place with an inclusive, open culture, that values work ethic and good communication. In such a space any of us could do great work and deliver our best results for our team and customers."
+    answer: "My ideal workplace would be an agile environment with a growth mindset and a strong focus on users, teamwork, collaboration and learning. A place with an inclusive, open culture, that values work ethic and good communication. In such a space any of us could do great work and deliver our best results for our team and customers."
   }
 ];
 

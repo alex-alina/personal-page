@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     width: '20%',
     display: 'flex',
     justifyContent: 'space-evenly',
-    paddingRight: '4%',
+    marginRight: '4%',
   },
 
   navLink: {

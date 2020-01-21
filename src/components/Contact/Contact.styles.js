@@ -7,20 +7,26 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     width: '100%',
-    margin: '7% auto 2% auto',
-    [theme.breakpoints.up('md')]: {
-      margin: '5% 0 2% 0',
+    margin: '7% auto 5% auto',
+    [theme.breakpoints.up('sm')]: {
+      margin: '4% 0',
     },
     [theme.breakpoints.up('lg')]: {
-      margin: '1% auto 3% auto',
+      margin: '1.5% auto 3% auto',
     },
   },
 
   title: {
-    marginTop: '2%',
     fontSize: 'calc(1.5rem + 0.5vw)',
     fontWeight: '300',
     color: theme.palette.primary.main,
+    margin: '2% 0',
+    [theme.breakpoints.up('md')]: {
+      margin: '4% 0 1% 0',
+    },
+    [theme.breakpoints.up('lg')]: {
+      margin: '2% 0 0.5% 0',
+    },
   },
 
   subTitle: {

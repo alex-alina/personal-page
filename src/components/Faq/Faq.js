@@ -19,7 +19,7 @@ export default function Faq() {
 
   return (
     <div className={classes.root}>
-      <Typography className={classes.sectionTitle} variant="h6" align="left">More info</Typography>
+      <h3 className={classes.sectionTitle} align="left">More info</h3>
 
       {faqContent.map((text) => (
         <ExpansionPanel key={text.question}>
@@ -27,7 +27,7 @@ export default function Faq() {
             <Typography variant="subtitle1" className={classes.question}>{text.question}</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
-            <Typography variant="body1" align="left">{text.answer}</Typography>
+            <Typography variant="body1" align="left" color="textSecondary">{text.answer}</Typography>
           </ExpansionPanelDetails>
         </ExpansionPanel>
       ))}

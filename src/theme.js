@@ -9,6 +9,9 @@ const theme = createMuiTheme({
       main: '#fff',
       dark: '#37474f',
     },
+    textSecondary: {
+      main:'#37474f',
+    }
   },
   typography: {
     fontFamily: [
@@ -30,12 +33,12 @@ const theme = createMuiTheme({
     MuiButton: {
       contained: {
         minWidth: '120px',
-        backgroundColor: '#14a3ab',
+        backgroundColor: '#0098a6',
         borderRadius: '50px',
-        border: '2px solid #14a3ab',
+        border: '2px solid #0098a6',
         '&:hover': {
-          backgroundColor: '#0f757a',
-          border: '2px solid #0f757a',
+          backgroundColor: '#14a3ab',
+          border: '2px solid #14a3ab',
         },
         color: '#fff',
       }
