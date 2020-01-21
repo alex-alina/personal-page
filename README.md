@@ -1,14 +1,9 @@
-## My portfolio website
-## Visit my portfolio at [www.alinarusu.com ](https://www.alinarusu.com)
-## [Demo on Netlify](https://alina-rusu.netlify.com/)
-
-## Description
-
-This is the client for a job posting page. When users click **Apply** they are sent to the **Application Form**. 
-
-After users fill in the form and click **Submit** they see a "Thank you" message instead of the form.
+## My personal website v0.1.0
 
 The goal of this project was to create a responsive, cross device/browser compatible portfolio page.
+
+## Visit my portfolio at [www.alinarusu.com ](https://www.alinarusu.com)
+## [Demo on Netlify](https://alina-rusu.netlify.com/)
 
 ## Tech stack
 
