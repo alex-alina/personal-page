@@ -7,11 +7,20 @@ const useStyles = makeStyles(theme => ({
   },
 
   sectionTitle: {
-    margin: '2% 0',
+    margin: '8% 0 4% 0',
     color: theme.palette.primary.main,
     lineHeight: '2.5rem',
     fontSize: 'calc(1.5rem + 0.5vw)',
     fontWeight: '300',
+    [theme.breakpoints.up('sm')]: {
+      margin: '4% 0 2% 0',
+    },
+    [theme.breakpoints.up('md')]: {
+      margin: '3% 0 2% 0',
+    },
+    [theme.breakpoints.up('lg')]: {
+      margin: '2% 0 2% 0',
+    },
   },
   
   question: {

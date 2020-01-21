@@ -1,7 +1,15 @@
 const aboutContent = {
-  intro: "Hi there! I'm a keen junior web developer with a passion for building user-centered apps and a background in project and team management.",
-  professionalDescription: "",
-  personalDescription: " Stare at the wall, play with food and get confused by dust poop on floor and watch human clean up cats go for world domination check cat door for ambush 10 times before coming in. Massacre a bird in the living room and then look like the cutest and most innocent animal on the planet cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers. Meow and walk away meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat, pet me pet me don't pet me.",
+  subtitleIntro: "I'm Alina, an energetic web developer with a passion for building user-centered apps and a background in project and team management.",
+  subtitleMiddle: "A junior in programming, a senior in teamwork…",
+  paragraphOne: "As a junior full-stack developer with 1+ years of experience, I build front-ends in JavaScript | TypeScript | React and back-ends in Node.js | JavaScript | TypeScript. That being said, I’m always open and motivated to learn new technologies whenever they look like a better solution to problems I’m working to solve.",
+  paragraphTwo: "My curiosity for web development started in 2018 and grew into a passion for developing web apps and having fun with JavaScript algorithms. After several months of self-study I enrolled and successfully graduated Codaisseur Academy for Full-Stack Web Development in Amsterdam. It turned out to be a great milestone in my path to become a developer, since they only accept 30% of applicants and just 60% of students graduate.",
+  paragraphThree: "This intense bootcamp and the additional 700+ hours of online courses helped me land my first job as a junior full stack developer, where I focused on developing front-end apps in React.",
+  paragraphFour: "My background in project and team coordination across multiple industries makes me able to quickly pick up the specifics of new fields. On top of that, it taught me how to easily collaborate with people that have different backgrounds and work styles. I have seven years of teamwork experience and a history of driving team growth through mentoring, training and good communication skills.",
+  paragraphFive: "This passion to improve my team’s efficiency and my colleagues’ well-being is translated now into my ability to adapt and integrate fast into new teams and connect at a deeper level with my colleagues.",
+  paragraphSix: "As a junior developer, I’m constantly working on building my technical skills, but my background was essential in shaping my values, work ethic and my long term goals. One of which is to become an experienced web developer that builds apps with the users in mind, writes clean, readable code and delivers good, easy to use solutions.",
+  paragraphSeven: "I believe that learning new technologies well enough to make something work is a matter of weeks or months, but developing good values, grit and a growth mindset is always a matter of years.",
+  paragraphEight: "My quiet time is spent making tiny origami gardens, reading and meeting with friends for coffee. But be it friend or stranger, I love helping people and making their lives a bit better. This is a goal I work to reach through code in my professional work as well as through actions I take in my private life.",
+  ending: "At the end of the day, making people smile and helping them solve their problems is what makes me happy too."
 }
 
 export default aboutContent;

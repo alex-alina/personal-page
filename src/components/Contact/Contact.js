@@ -11,29 +11,26 @@ export default function Contact() {
         <Typography className={classes.title}>
           Let's chat!
         </Typography>
-        <Typography className={classes.subTitle} align="left">
-          Currently seeking new opportunities.
-        </Typography>
 
         <Typography className={classes.subTitle} align="left">
-          Get in touch by email {' '} 
-          <a 
-            href="mailto:alex.alina.rusu@gmail.com?subject=Hi Alina!" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className={classes.contactLink}
-          >
-            alex.alina.rusu@gmail.com {' '}
-          </a>
-          or message me on {' '}
-          <a 
-            href="https://www.linkedin.com/in/alina-rusu/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className={classes.contactLink}
-          >
-            LinkedIn.
-          </a>
+          Message me on {' '}
+            <a 
+              href="https://www.linkedin.com/in/alina-rusu/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={classes.contactLink}
+            >
+              LinkedIn
+            </a>
+          {' '}or get in touch by email at{' '} 
+            <a 
+              href="mailto:alex.alina.rusu@gmail.com?subject=Hi Alina!" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={classes.contactLink}
+            >
+              alex.alina.rusu@gmail.com
+            </a>.
         </Typography>
       </section>
     </React.Fragment>

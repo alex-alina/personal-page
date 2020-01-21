@@ -29,45 +29,39 @@ const useStyles = makeStyles(theme => ({
     margin: '0 auto',
     borderRadius: '50%',
     [theme.breakpoints.up('sm')]: {
+      width: '40%',
+      margin: '0 auto',
+    },
+    [theme.breakpoints.up('lg')]: {
       width: '100%',
+      margin: '4% 0 0 0',
     },
   },
 
-  intro: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    width: '100%',
-    color: '#37474f',
-  },
-
-  name: {
+  greeting: {
     marginTop: '7%',
+    marginBottom: '0',
     fontSize: 'calc(1.5rem + 0.5vw)',
     fontWeight: '300',
     color: theme.palette.primary.main,
     [theme.breakpoints.up('sm')]: {
-      marginTop: '2%',
+      marginTop: '1.5%',
     },
   },
 
-  introTitle: {
-    marginTop: '0.75%',
+  subtitles: {
+    display: 'block',
+    margin: '2.5% 0 0 0',
     fontSize: 'calc(0.95rem + 0.25vw)',
     fontWeight: '400',
-    color: '#37474f',
+    color: theme.palette.primary.main,
   },
 
-  introDetails: {
+  paragraphs: {
     fontSize: 'calc(0.85rem + 0.25vw)',
     fontWeight: '300',
-    marginTop: '7%',
-    [theme.breakpoints.up('md')]: {
-      marginTop: '5%',
-    },
-    [theme.breakpoints.up('lg')]: {
-      marginTop: '2%',
-    },
+    lineHeight: 1.5,
+    color: '#37474f',
   },
 }));
 

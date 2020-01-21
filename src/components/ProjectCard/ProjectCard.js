@@ -8,7 +8,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-
 export default function ProjectCard(props) {
   const classes = useStyles();
   const { 
@@ -61,34 +60,33 @@ export default function ProjectCard(props) {
       </CardActionArea>
 
       <CardActions>
+        <Button 
+          size="medium" 
+          color="primary"
+        >
+          <a 
+            href={projectLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={classes.projectLink}
+          >
+            {openProjectBtn}
+          </a>
+        </Button>
         
-          <Button 
-            size="medium" 
-            color="primary"
+        <Button 
+          size="medium" 
+          color="primary"
+        >
+          <a 
+            href={gitHubLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={classes.projectLink}
           >
-            <a 
-              href={projectLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className={classes.projectLink}
-            >
-              {openProjectBtn}
-            </a>
-          </Button>
-
-          <Button 
-            size="medium" 
-            color="primary"
-          >
-            <a 
-              href={gitHubLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className={classes.projectLink}
-            >
-              {gitHubBtn} 
-            </a>
-          </Button>
+            {gitHubBtn} 
+          </a>
+        </Button>
       </CardActions>
     </Card>
   );
