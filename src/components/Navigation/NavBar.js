@@ -14,28 +14,28 @@ export default function NavBar() {
     <div className={classes.root}>
       <AppBar position="static" backgroundcolor="primary" >
         <Toolbar className={classes.toolBar}>
-        <p
-          className={classes.logo} 
-          color="secondary" 
-        >
-          Hello World <span role="img" aria-label="happy face emoji">😊</span>
-        </p>
+          <p
+            className={classes.logo} 
+            color="secondary" 
+          >
+            Hello World <span role="img" aria-label="happy face emoji">😊</span>
+          </p>
 
-        <Hidden only={['lg', 'xl']}> 
-          <SideMenu />
-        </Hidden>
+          <Hidden only={['lg', 'xl']}> 
+            <SideMenu />
+          </Hidden>
 
-        <Hidden only={['xs', 'sm', 'md']}>
-          <ul className={classes.navList}>
-            {menuContent.map((item, index) => (
-              <li key={index} className={classes.navLi}>
-                <Link to={item.route} className={classes.navLink}>
-                  {item.text}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Hidden>
+          <Hidden only={['xs', 'sm', 'md']}>
+            <ul className={classes.navList}>
+              {menuContent.map((item, index) => (
+                <li key={index} className={classes.navLi}>
+                  <Link to={item.route} className={classes.navLink}>
+                    {item.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Hidden>
         </Toolbar>
       </AppBar>
     </div>

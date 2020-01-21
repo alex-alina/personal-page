@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
-
 export default function Projects() {
   const classes = useStyles();
   const { 
@@ -24,6 +23,7 @@ export default function Projects() {
         >
           Projects
       </Typography>
+      
       <Grid container spacing={4}>
         <Grid item sm={12} md={6}>
           <ProjectCard 

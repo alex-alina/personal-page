@@ -12,7 +12,6 @@ import gardenTwo from '../../assets/gardenTwo.png';
 import gardenThree from '../../assets/gardenThree.jpg';
 import gardenOFour from '../../assets/gardenFour.jpg';
 
-
 export default function Faq() {
   const classes = useStyles();
   const gardens = [gardenOne, gardenTwo, gardenThree, gardenOFour];
@@ -24,17 +23,33 @@ export default function Faq() {
       {faqContent.map((text) => (
         <ExpansionPanel key={text.question}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subtitle1" className={classes.question}>{text.question}</Typography>
+            <Typography 
+              variant="subtitle1" 
+              className={classes.question}
+            >
+              {text.question}
+            </Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
-            <Typography variant="body1" align="left" color="textSecondary">{text.answer}</Typography>
+            <Typography 
+              variant="body1" 
+              align="left" 
+              color="textSecondary"
+            >
+              {text.answer}
+            </Typography>
           </ExpansionPanelDetails>
         </ExpansionPanel>
       ))}
 
       <ExpansionPanel>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subtitle1" className={classes.question}>My Tiny Origami Gardens</Typography>
+            <Typography 
+              variant="subtitle1" 
+              className={classes.question}
+            >
+              My Tiny Origami Gardens
+            </Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <Grid container spacing={3}>

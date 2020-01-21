@@ -4,6 +4,7 @@ const useStyles = makeStyles({
   card: {
     width: 'auto',
   },
+
   media: {
   maxWidth: '100%',
   display: 'block',
@@ -11,6 +12,7 @@ const useStyles = makeStyles({
    objectFit: 'fill',
    objectPosition: 'center',
   },
+  
   projectLink: {
     textDecoration: 'none',
     color: 'inherit',
