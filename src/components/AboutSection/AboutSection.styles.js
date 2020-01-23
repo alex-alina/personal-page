@@ -62,6 +62,9 @@ const useStyles = makeStyles(theme => ({
     fontWeight: '300',
     lineHeight: 1.5,
     color: '#37474f',
+    [theme.breakpoints.up('sm')]: {
+      textAlign: 'justify', 
+    },
   },
 }));
 
