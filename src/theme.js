@@ -37,7 +37,7 @@ const theme = createMuiTheme({
         borderRadius: '50px',
         border: '2px solid #0098a6',
         '&:hover': {
-          backgroundColor: '#14a3ab',
+          backgroundColor: '#14a3ab !important',
           border: '2px solid #14a3ab',
         },
         color: '#fff',

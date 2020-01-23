@@ -8,14 +8,14 @@ const projectsDescription = {
     title: 'Spirograph App',
     description: 'Drawing app that makes mathematical roulette curves. React | JS | Paper.js | Styled Components | ESLint | Airbnb JS Style Guide.',
     image: spirograph,
-    projectLink: 'https://frosty-raman-e9f7d7.netlify.com/',
+    projectLink: 'https://spirograph-app.netlify.com/',
     gitHubLink: 'https://github.com/alex-alina/spirograph',
   },
   projectTwo: {
     title: 'Career Page',
     description: 'Responsive job posting page connected to an application form. React | JavaScript | Material-UI | CSS | SPA | Input validation.',
     image: careerPage,
-    projectLink: 'https://optimistic-lamarr-981db4.netlify.com/',
+    projectLink: 'https://career-page.netlify.com/',
     gitHubLink: 'https://github.com/alex-alina/ams-recruitment',
   },
   projectThree: {
@@ -29,7 +29,7 @@ const projectsDescription = {
     title: 'Multiply Landing Page',
     description: 'Static page with signup form that collects emails. React | JavaScript | Express | Sequelize | PostgreSQL | CSS | UI/UX.',
     image: multiply,
-    projectLink: 'https://competent-golick-0dcc04.netlify.com/',
+    projectLink: 'https://multiply-landing-page.netlify.com/',
     gitHubLink: 'https://github.com/alex-alina/multiply-client',
   },
   buttons: {

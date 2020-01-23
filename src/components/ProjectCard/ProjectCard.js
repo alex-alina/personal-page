@@ -24,39 +24,46 @@ export default function ProjectCard(props) {
   return (
     <Card className={classes.card}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={image}
-          title="project cover image"
-        />
-        <CardContent>
-          <Typography 
-            gutterBottom 
-            variant="h5" 
-            component="h2" 
-            align="left"
-          >
-            {title}
-          </Typography>
+        <a 
+          href={projectLink} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={classes.projectLink}
+        >
+          <CardMedia
+            className={classes.media}
+            image={image}
+            title="project cover image"
+          />
+          <CardContent>
+            <Typography 
+              gutterBottom 
+              variant="h5" 
+              component="h2" 
+              align="left"
+            >
+              {title}
+            </Typography>
 
-          <Typography 
-            variant="body1" 
-            color="textSecondary" 
-            component="p" 
-            align="left"
-          >
-            {description}
-          </Typography>
+            <Typography 
+              variant="body1" 
+              color="textSecondary" 
+              component="p" 
+              align="left"
+            >
+              {description}
+            </Typography>
 
-          <Typography 
-            variant="body1" 
-            color="textSecondary" 
-            component="p" 
-            align="left"
-          >
-            {stack}
-          </Typography>
-        </CardContent>
+            <Typography 
+              variant="body1" 
+              color="textSecondary" 
+              component="p" 
+              align="left"
+            >
+              {stack}
+            </Typography>
+          </CardContent>
+        </a>
       </CardActionArea>
 
       <CardActions>
