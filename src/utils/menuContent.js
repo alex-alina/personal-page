@@ -1,11 +1,11 @@
 const menuContent = [
   {
-    text: 'About me',
-    route: '/about',
-  },
-  {
     text: 'Projects',
     route: '/',
+  },
+  {
+    text: 'About me',
+    route: '/about',
   },
 ];
 
