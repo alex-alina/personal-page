@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import faqContent from '../../utils/faqContent';
 import gardenOne from '../../assets/gardenOne.png';
-import gardenTwo from '../../assets/gardenTwo.png';
+import gardenTwo from '../../assets/gardenTwo.jpg';
 import gardenThree from '../../assets/gardenThree.jpg';
 import gardenOFour from '../../assets/gardenFour.jpg';
 
